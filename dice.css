@@ -1,0 +1,41 @@
+body{
+
+
+  background: linear-gradient(to right, #3f5efb , #fc46ef)
+
+}
+
+.top-container{
+  text-align: center;
+
+}
+#Title{
+  color: purple;
+}
+
+.dice1{
+  float: right;
+  position: absolute;top: 70px; right: 100px;
+}
+.dice{
+  position: absolute; left: 200px;
+}
+.btn-container{
+  text-align: center;
+  position: relative; top: 500px; left: 20px;
+}
+.btn{
+  background-color: #fc46ef;
+  width: 15%;
+  height: 80%;
+  font-size: 1.5rem;
+  font-weight: 800;
+  border-radius: 5px;
+}
+.btn:hover{
+  box-shadow: 3px 3px 2px black;
+  transform: scale(1.01);
+}
+.btn:focus{
+  outline: inherit;
+}
